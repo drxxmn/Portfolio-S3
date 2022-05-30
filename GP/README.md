@@ -12,7 +12,7 @@ Learning Outcomes for the Group Project
 
 ### 1. Web-application
 #### User Friendly:
-I did research on what the best way to display the temperature and humidity is for our application and thus looked into all sorts of heatmaps and sliders. I go into this more in my [Individual Project]() and in the [full-stack](#full-stack) section
+I did research on what the best way to display the temperature and humidity is for our application and thus looked into all sorts of heatmaps and sliders. I go into this more in my [Individual Project](https://github.com/drxxmn/Portfolio-S3/tree/main/IP) and in the [full-stack](#full-stack) section
 
 #### Full-stack:
 ##### Heatmap:
