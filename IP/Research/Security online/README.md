@@ -1,8 +1,8 @@
-# **Messaging and Security of Discord**
+# **Messaging and Security of a Social Media Platform**
 
 ## **Table of contents**
 * [Intro](#intro)
-* [What is Discord](#what-is-discord)
+* [What is Discord](#what-is-Discord)
 * [How is this possible?](#but-how-is-this-possible)
 * [What is Tencent?](#what-is-tencent)
 * [Permanent data](#permanent-data)
