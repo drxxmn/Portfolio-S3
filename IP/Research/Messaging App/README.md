@@ -175,6 +175,10 @@ type Message
 ```
 To obtain the latest data, you just need to subscribe to new messages or chatroom updates. The same goes for sending new data using [GraphQL](https://docs.amplify.aws/cli-legacy/graphql-transformer/overview/).
 
+| <img src="https://user-images.githubusercontent.com/69758492/172170612-e550921a-3d8b-42bb-88aa-93274a8eed43.png" width="600" height="300" /> |
+| :--: |
+| _GraphQL subscriptions and mutations_ |
+
 ### *Final words*
 Making your own application does have a lot of pro's and con's, in the end it's what you need for yourself. There are many ways to make your own application, and I only used a few tools. You could be using something entirely different like [Vue.js](https://vuejs.org/) or a different front-end/ back-end combination. 
 
