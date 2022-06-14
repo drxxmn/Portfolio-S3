@@ -6,8 +6,6 @@ Learning Outcomes for the Group Project
 * [5. Cultural differences and ethics](#5-cultural-differences-and-ethics)
 * [6. Requirements and design](#6-requirements-and-design)
 * [7. Business processes](#7-business-processes)
-* [8. Professional](#8-professional)
-
 ---
 
 ### 1. Web-application
@@ -115,8 +113,25 @@ function setTimeLimit() {
 ```
 
 ### 3. Agile method
-In our group project we work using the Agile method, we kick off every day with a daily stand-up and end every day with a stand-down. 
+In our group project we work using the Agile method and we chose the Scrum agile methodology. 
 
+#### ***What is Agile Scrum?***
+Agile scrum methodology is a project management system that relies on incremental development. Each iteration consists of two- to four-week sprints, where the goal of each sprint is to build the most important features first and come out with a potentially deliverable product. More features are built into the product in subsequent sprints and are adjusted based on stakeholder and customer feedback between sprints.
+
+Whereas other project management methods emphasize building an entire product in one operation from start to finish, agile scrum methodology focuses on delivering several iterations of a product to provide stakeholders with the highest business value in the least amount of time.
+
+Agile scrum methodology has several benefits. First, it encourages products to be built faster, since each set of goals must be completed within each sprint’s time frame. It also requires frequent planning and goal setting, which helps the scrum team focus on the current sprint’s objectives and increase productivity. 
+
+#### ***Why Agile Scrum?***
+We had to select an Agile work methodology for this semester and we were free to choose whichever we wanted. Our group ended up picking Scrum for multiple reasons. Most of us have been working together for the last 2 semesters and have always adapted a Scrum style workflow, because we're familiar with how it works and what must be done we can also improve upon the workflow with every sprint.
+
+Because we focus on delivering several iterations of a product to provide stakeholders throughout the entire semester, we were able to identify what exactly the stakeholder wanted from us and discuss what must be done.
+
+At first when we just started this semester we lacked the ability to thoroughly question the stakeholder on what must be made and what we had available and ended up making a mock application of something that the stakeholder wouldn't be able to use or even want to use. But because we managed to communicate better and identify the issue we were able to quickly scrap everything and start again from scratch, this time knowing what needed to be done and communicating more frequently.
+
+#### ***What did we do?***
+
+We kick off every day with a daily stand-up and end every day with a stand-down. 
 In the stand-up, we discuss what we have to do during the day and which tasks every person will take upon themselves. We also discuss any issues we've run into or any new things we have learned that would benefit the entire group. We also discuss the current state of the project and how we are progressing and if we're still on schedule.
 
 Furthermore, we have a [Notion](https://notion.so) page in which we track all our documents and progress using a Trello board. Everything we have in the [Notion](https://notion.so) workspace: 
@@ -141,13 +156,24 @@ After the preview we hold a retrospective as a group, we ask each other question
 | :--: |
 | _The scrum workflow we apply in our project_ |
 
+#### ***Things we can improve upon***
+There's many things that we could also improve upon in the group, one of which is working with the Agile Scrum method. We didn't keep up the backlog well enough and ended up not really adding any "definition of done" requirements.
+As a group we had adapted the method in a slightly different way, albeit maybe not as effective. In the future we definitely know better how to start and keep up a project and to set the right requirements.
+
+#### ***My opinion on our workflow***
+Personally I really liked our workflow and how we handled things. Using the Agile Scrum method we could always tell what the other members were doing at any given moment, we can also see what still needs to be done and pick up those tasks.
+
+Because we do a review every sprint, we can organize what needs to be done and what we can show to the stakeholder so they can give their opinions too. This allows us to make sure we're making the right thing and not just making anything that we deen to be fun or interesting to do.
+
+All in all it was a very nice and enjoyable workflow, it's very flexible and you can adapt it to your own group in different ways.
+
 ### 5. Cultural differences and ethics
 Cultural:
 ---
 **What is culture?** <br>
 Culture is the characteristics and knowledge of a particular group of people, encompassing language, religion, food, social habits, arts and music. This applies to ethnicities, countries, but also in the workspace.
 
-**Can you give examples of cultural differences that you have experienced in your study or life? How do you explain these differences?**  
+**Can you give examples of cultural differences that you have experienced in your study or life? How do you explain these differences?**   <br>
 As an Asian born in The Netherlands, I've definitely experienced cultural differences in my life. Because you look different to other people the way you'll be treated will always be somewhat different, there'll always be some prejudice, whether good or bad.
 
 Your mindset will also be different depending on the way you've been raised, be it a different countries' culture or a different religion. But having differences in culture is what makes things interesting, as long as it's nothing negative or if there's discrimination.
@@ -167,7 +193,11 @@ Ethics is a set of moral principles that govern the behavior of a person or the 
 There are many perspectives on ethics in software engineering. One of them is the development of a product. The impact your software can have on the end-user and what can be done with it has to be thought about in an ethical way. The ethical values adhered to during the production of a product define the workability and comfortability of the environment. A lack of proper ethical values or a lack of enforcing them will eventually create a working environment where discrimination, bullying, favoritism among other things are allowed. For this reason, it is important for proper, unanimously agreed upon ethical values to be present.
 The ethical values the product adheres to at it’s core define how an application could impact its users. An application built with strong ethical values at its core should result in a product that will affect users in a positive manner, whereas one that lacks this core may result in the opposite reaction. For this reason, it is important to consider how users could be negatively impacted by something, and what can be done to minimize (or negate) this reaction.
 
-**What do you have to do as a software engineer to address ethical aspects in your work?**
+**An example of how important ethics is in software engineering** <br>
+In the world currently most multimillion dollar companies have questionable ethics and only care about profit, our data is never truly secure.
+I personally wanted to dig into it more and did a research on a specific social media platform. [Here](https://github.com/drxxmn/Portfolio-S3/tree/main/IP/Research/Security%20online) is a link to my research.
+
+**What do you have to do as a software engineer to address ethical aspects in your work?** <br>
 Within the software engineering space, a number of widely used ethical guidelines can be found on the internet. One such guideline is the [ACM Software Engineering Code of Ethics](https://ethics.acm.org/code-of-ethics/software-engineering-code/), which states that software engineers should strife to analyze, design, develop, test and maintain software in a truthful, upfront and professional manner for the better of public health, safety and welfare of humanity, according to the following eight principles: 
 1. PUBLIC – Software engineers shall act consistently with the public interest.
 2. CLIENT AND EMPLOYER – Software engineers shall act in a manner that is in the best interests of their client and employer, consistent with the public interest.
@@ -178,22 +208,29 @@ Within the software engineering space, a number of widely used ethical guideline
 7. COLLEAGUES – Software engineers shall be fair to and supportive of their colleagues.
 8. SELF – Software engineers shall participate in lifelong learning regarding the practice of their profession and shall promote an ethical approach to the practice of the profession.
 
-**How do you know that your ethical considerations match with those of other software engineers?**
+**How do you know that your ethical considerations match with those of other software engineers?** <br>
 In order to verify all software engineers’ ethical values match up, it is important for all parties involved to converse about the topic. Allowing everyone to share their ethical values and boundaries with one another makes it possible to create a working environment in which all parties involved can work comfortably.
 
-**Which ethical aspects play a role in your project?**
+**Which ethical aspects play a role in your project?** <br>
 One of the ethical aspects in our group project that we faced was the licensing of third-party libraries. As our project lives in a gray area between commercial and non-profit (the organization is a business, while the application is strictly for internal use without any direct link to generating profit), we contemplated whether purchasing a license for these libraries would be necessary.
 
-**Do you foresee ethical conflicts caused by your software? What kind of?**
+**Do you foresee ethical conflicts caused by your software? What kind of?** <br>
 I do not expect any ethical conflicts within our project.
 
-**Can you do something to avoid or minimize these conflicts?**
+**Can you do something to avoid or minimize these conflicts?** <br>
 Communicating regularly with one another is key in preventing (or solving) conflicts in a professional setting. Expressing one’s concerns and problems spreads awareness to all parties involved and allows them to seek out a solution together. It also minimizes the amount of misunderstandings that could potentially happen.
 
-### 6. Requirements and design 
+### 6. Requirements and design
 To better our product, we try to get as much feedback as possible from our stakeholder. We try our best to meet up every week, so we can discuss what we have done and what still needs to be done/ done better.
 
-At the beginning of our project, we created a list of user stories, which would act as our requirements. Each user story would be dissected into smaller tasks, which would then get implemented. Later on we created a DOD (definition of done) for each task, so the group could quickly see what needed to be done and what has already been done, including the progress of each task.
+At the beginning of our project, we created a list of user stories, which would act as our requirements. Each user story would be dissected into smaller tasks, which would then get implemented. Later on we created a sort of "definition of done" for each task, so the group could quickly see what needed to be done and what has already been done, including the progress of each task.
+As I mentioned [earlier](#things-we-can-improve-upon) we did not do the definition of done in the conventional way. Instead we made it a sort of check list of things that needed to be completed and work for us to deem it finished.
+
+Discussions with the stakeholder started off a bit weak, but we quickly realized that we didn't have a good direction to work towards and started communicating much better with the stakeholder. 
+
+In the beginning we made a program for the workers at ISAAC, but the program is supposed to be made for the upper management so they can see that the temperature within the building is not ideal for working, and that they need to get it fixed. 
+
+We bounced a lot of ideas with the stakeholder and ended up making a heatmap system that would accomodate everyone in the building.
 
 As for design I went into it in the [heatmap](#heatmap) and [slider](#sliders--date-time) section.
 
@@ -204,4 +241,3 @@ We visualized the process in Engage Process Modeler. The Engage Process Modeler 
 | ![Picking](https://user-images.githubusercontent.com/58734636/169815706-b2c2f944-5276-49b0-8d67-84d7c27e853d.png)|
 | :--: |
 | _Order-picking business process_ |
-### 8. Professional

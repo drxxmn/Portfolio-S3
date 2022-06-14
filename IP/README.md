@@ -17,6 +17,8 @@ I have chosen [React native](https://reactnative.dev) because it's the industry 
 #### Back-end project
 For my back-end I used [AWS Amplify](https://aws.amazon.com/amplify/) and [GraphQL](https://docs.amplify.aws/cli-legacy/graphql-transformer/overview/)
 ### 2. Software quality
+#### ***Code Reviews***
+As a group we've done a code review together, everyone had taken the code they made during the group project and we showed eachother exactly what we had made and what all the code is intended for.
 
 ### 4. CI/CD
 
