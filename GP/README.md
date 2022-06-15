@@ -129,6 +129,10 @@ Because we focus on delivering several iterations of a product to provide stakeh
 
 At first when we just started this semester we lacked the ability to thoroughly question the stakeholder on what must be made and what we had available and ended up making a mock application of something that the stakeholder wouldn't be able to use or even want to use. But because we managed to communicate better and identify the issue we were able to quickly scrap everything and start again from scratch, this time knowing what needed to be done and communicating more frequently.
 
+#### ***The difference between Kanban and Scrum***
+Kanban and Scrum are project management methodologies that complete project tasks in small increments and emphasize continuous improvement. But the processes they use to achieve those ends are different. While Kanban is centered around visualizing tasks and continuous flow, Scrum is more about implementing timelines for each delivery cycle and assigning set roles.
+In Kanban you work in shorter cycles and focus on finishing your tasks while Scrum floats a bit more.
+
 #### ***What did we do?***
 
 We kick off every day with a daily stand-up and end every day with a stand-down. 

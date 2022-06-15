@@ -3,9 +3,15 @@ Learning outcomes for my individual project
 
 ## Table of contents
 * [1. Web application](#1-web-application)
+  - [Front-end projcet](#front-end-project)
+  - [Back-end projcet](#back-end-project)
 * [2. Software quality](#2-software-quality)
+  - [Code reviews](#code-reviews)
+  - [Security](#security)
+  - [Testing](#testing)
 * [4. CI/CD](#4-cicd)
-* [8. Professional](#8-professional)
+  - [Development pipeline](#development-pipeline)
+  - [Production pipeline](#protuction-pipeline)
 
 ### 1. Web application
 For my individual project I will be making a messaging app. I'll be using a [React native](https://reactnative.dev) front-end with an [AWS Amplify](https://aws.amazon.com/amplify/) back-end. I go more in-depth into my project in my separate research [here](https://github.com/drxxmn/Portfolio-S3/tree/main/IP/Research/Messaging%20App).
@@ -127,7 +133,8 @@ As a group we've done a code review together, everyone had taken the code they m
 For the security of my application I decided to add authentication to the front-end application. By requiring the user to authenticate themselves, I can properly setup private accounts and ID's so the users can message each other in my application, I used the built in authentication from [AWS Amplify](https://aws.amazon.com/amplify/). The front-end application sends the user to a login page when they have to login for the first time, there they can login or register. After the user has authenticated once, they are sent to the main screen and they don't have to ever login again. The application remembers the user and allows them to forget about the login process.
 
 #### ***Testing***
-In order to validate the code's functionality and ability to handle unexpected scenarios, the code needs to be thorougly tested. For the back-end, I decided to make use of the Xunit testing framework as it's easy to set up and allows for easy input data manipulation to minimize the amount of test logic that needs to be rewritten. There are three types of tests I created: unit tests, integration tests and end-to-end tests. The unit tests are meant to be small and only test a single piece of functionality, whereas the integration tests are meant for testing an entire sequence of actions. Finally, the end-to-end tests are closest to practical usage, and are meant to test a particular use-case from start to end.
+
+
 ### 4. CI/CD
 The goal of this learning outcome is to design and implement a CI/CD pipeline that is speficically made for this project capable of performing both integration and deployment. 
 
