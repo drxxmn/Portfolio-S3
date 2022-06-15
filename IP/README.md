@@ -129,6 +129,12 @@ The goal of this learning outcome is to use a variety of tools to monitor the qu
 #### ***Code Reviews***
 As a group we've done a code review together, everyone had taken the code they made during the group project and we showed eachother exactly what we had made and what all the code is intended for. We also tended to do a lot of over the shoulder type code reviews, whenever we made something new we would show and ask the other groupmates for their opinions.
 
+#### ***SonarCloud***
+In order to verify the quality of the written code, I used Sonarcloud. 
+I integrated this server with the CI/CD pipeline, and it is triggered with every single push to my git. Sonarcloud scans the code for vunerabilities, bugs and small issues and gives possible solutions.
+
+ <img src="https://user-images.githubusercontent.com/69758492/173780247-27f1e470-3f7e-412d-9b2a-0543c87c8e8b.png" width="" height="400" />
+
 #### ***Security***
 For the security of my application I decided to add authentication to the front-end application. By requiring the user to authenticate themselves, I can properly setup private accounts and ID's so the users can message each other in my application, I used the built in authentication from [AWS Amplify](https://aws.amazon.com/amplify/). The front-end application sends the user to a login page when they have to login for the first time, there they can login or register. After the user has authenticated once, they are sent to the main screen and they don't have to ever login again. The application remembers the user and allows them to forget about the login process.
 
