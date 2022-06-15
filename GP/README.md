@@ -127,9 +127,6 @@ We had to select an Agile work methodology for this semester and we were free to
 
 Because we focus on delivering several iterations of a product to provide stakeholders throughout the entire semester, we were able to identify what exactly the stakeholder wanted from us and discuss what must be done.
 
-#### ***What went wrong and how did we fix it?***
-At first when we just started this semester we lacked the ability to thoroughly question the stakeholder on what must be made and what we had available and ended up making a mock application of something that the stakeholder wouldn't be able to use or even want to use. But because we managed to communicate better and identify the issue we were able to quickly scrap everything and start again from scratch, this time knowing what needed to be done and communicating more frequently.
-
 #### ***The difference between Kanban and Scrum***
 Kanban and Scrum are project management methodologies that complete project tasks in small increments and emphasize continuous improvement. But the processes they use to achieve those ends are different. While Kanban is centered around visualizing tasks and continuous flow, Scrum is more about implementing timelines for each delivery cycle and assigning set roles.
 In Kanban you work in shorter cycles and focus on finishing your tasks while Scrum floats a bit more.
@@ -143,7 +140,6 @@ Kanban can be customized to fit the processes and work systems your team and / o
 So it is possible to still integrate it with other workflows, our group didn't exactly work with only Agile Scrum. The stakeholder also slightly helped us push more towards a different workflow because it's also what they use within their company. We did use Kanban a bit because we visualised the work in a similar way on a roadmap.
 
 #### ***What did we do?***
-
 We kick off every day with a daily stand-up and end every day with a stand-down. 
 In the stand-up, we discuss what we have to do during the day and which tasks every person will take upon themselves. We also discuss any issues we've run into or any new things we have learned that would benefit the entire group. We also discuss the current state of the project and how we are progressing and if we're still on schedule.
 
@@ -168,6 +164,9 @@ After the preview we hold a retrospective as a group, we ask each other question
 | <img src="https://www.flowsphere.ch/wp-content/uploads/2017/02/ScrumFramework_17x11-1024x663.png" width="800" height="500" />| 
 | :--: |
 | _The scrum workflow we apply in our project_ |
+
+#### ***What went wrong and how did we fix it?***
+At first when we just started this semester we lacked the ability to thoroughly question the stakeholder on what must be made and what we had available and ended up making a mock application of something that the stakeholder wouldn't be able to use or even want to use. But because we managed to communicate better and identify the issue we were able to quickly scrap everything and start again from scratch, this time knowing what needed to be done and communicating more frequently.
 
 #### ***Things we can improve upon***
 There's many things that we could also improve upon in the group, one of which is working with the Agile Scrum method. We didn't keep up the backlog well enough and ended up not really adding any "definition of done" requirements.
