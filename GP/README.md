@@ -133,6 +133,14 @@ At first when we just started this semester we lacked the ability to thoroughly 
 Kanban and Scrum are project management methodologies that complete project tasks in small increments and emphasize continuous improvement. But the processes they use to achieve those ends are different. While Kanban is centered around visualizing tasks and continuous flow, Scrum is more about implementing timelines for each delivery cycle and assigning set roles.
 In Kanban you work in shorter cycles and focus on finishing your tasks while Scrum floats a bit more.
 
+Kanban works well when used alongside Scrum or any other Agile method. Basically, Kanban can be applied to visualize and improve the flow of work, regardless of the methodology being used to do the work.
+
+Scrum is an iterative, incremental work method that provides a highly prescriptive way in which work gets completed. Scrum teams have defined processes, roles, ceremonies and artifacts.
+
+Kanban can be customized to fit the processes and work systems your team and / or company already has in place. Once a work method has been either adopted or developed based on Agile principles, your team can begin using Agile tools like Kanban boards and project forecasting tools to help manage projects, workflows and processes in a way that works best for everyone.
+
+So it is possible to still integrate it with other workflows, our group didn't exactly work with only Agile Scrum. The stakeholder also slightly helped us push more towards a different workflow because it's also what they use within their company. We did use Kanban a bit because we visualised the work in a similar way on a roadmap.
+
 #### ***What did we do?***
 
 We kick off every day with a daily stand-up and end every day with a stand-down. 
@@ -224,6 +232,18 @@ I do not expect any ethical conflicts within our project.
 **Can you do something to avoid or minimize these conflicts?** <br>
 Communicating regularly with one another is key in preventing (or solving) conflicts in a professional setting. Expressing one’s concerns and problems spreads awareness to all parties involved and allows them to seek out a solution together. It also minimizes the amount of misunderstandings that could potentially happen.
 
+### Game
+We (Me, Rens, Maikel and Rick) played the game in the Canvas course. These are the scores we achieved at the end of the game:
+
+|    Name    |Score|
+|------------|-----|
+| **Maikel** | 121 |
+| **Rick**   | 114 |
+| **Liang**  | 113 |
+| **Rens**   | 112 |
+
+I think the game was not the most useful for me personally to understand cultural differences more, but I definitely learned some small things about different cultures that I can keep in mind for the future. For example how in some Asian countries it is acceptable to just hang up the phone out of nowhere, or how different countries prefer their interviews. Using this information I can improve my communication and relations with future colleagues and friends.
+
 ### 6. Requirements and design
 To better our product, we try to get as much feedback as possible from our stakeholder. We try our best to meet up every week, so we can discuss what we have done and what still needs to be done/ done better.
 
@@ -245,3 +265,14 @@ We visualized the process in Engage Process Modeler. The Engage Process Modeler 
 | ![Picking](https://user-images.githubusercontent.com/58734636/169815706-b2c2f944-5276-49b0-8d67-84d7c27e853d.png)|
 | :--: |
 | _Order-picking business process_ |
+
+A business process is a series of steps performed by a group of stakeholders to achieve a concrete goal. Each step in a business process denotes a task that is assigned to a participant. It is the fundamental building block for several related ideas such as business process management, process automation, etc.
+
+#### ***What can I do with a business process in the future?***
+- Identify what tasks are important to your larger business goals
+- You can improve efficiency
+- You have a better insight of the user, and thus can understand the process better.
+- It prevents chaos in the process and streamlines things.
+- Only have things that really matter in your project.
+
+Next time I would have to work in a group project I could start a conversation with my teammates to see if we can make a business process in the beginning to really understand the stakeholder and users.
