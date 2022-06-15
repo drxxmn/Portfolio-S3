@@ -127,6 +127,7 @@ We had to select an Agile work methodology for this semester and we were free to
 
 Because we focus on delivering several iterations of a product to provide stakeholders throughout the entire semester, we were able to identify what exactly the stakeholder wanted from us and discuss what must be done.
 
+#### ***What went wrong and how did we fix it?***
 At first when we just started this semester we lacked the ability to thoroughly question the stakeholder on what must be made and what we had available and ended up making a mock application of something that the stakeholder wouldn't be able to use or even want to use. But because we managed to communicate better and identify the issue we were able to quickly scrap everything and start again from scratch, this time knowing what needed to be done and communicating more frequently.
 
 #### ***The difference between Kanban and Scrum***
@@ -258,6 +259,8 @@ We bounced a lot of ideas with the stakeholder and ended up making a heatmap sys
 
 #### ***What will I do in the future?***
 Now that we've worked together with ISAAC and learned all these things, in the future I'll make sure that we communicate clearly with the stakeholder from the beginning. I'll also know how to better organize the group and the best way to work together, for example communication, dividing tasks etc. I think this experience was very helpful for my development.
+
+We've also learned on how to discover what the stakeholder exactly wants, but it's still a learning process as we missed to pick upon some things at the end. For example the stakeholder implicitly stated that he wanted us also work on documentation for the project so they can better handle and use the code when we give it to them. But we missed that clue and haven't been able to focus on it.
 
 As for design I went into it in the [heatmap](#heatmap) and [slider](#sliders--date-time) section.
 
