@@ -232,7 +232,7 @@ I do not expect any ethical conflicts within our project.
 **Can you do something to avoid or minimize these conflicts?** <br>
 Communicating regularly with one another is key in preventing (or solving) conflicts in a professional setting. Expressing one’s concerns and problems spreads awareness to all parties involved and allows them to seek out a solution together. It also minimizes the amount of misunderstandings that could potentially happen.
 
-### Game
+### **Game**
 We (Me, Rens, Maikel and Rick) played the game in the Canvas course. These are the scores we achieved at the end of the game:
 
 |    Name    |Score|
@@ -255,6 +255,9 @@ Discussions with the stakeholder started off a bit weak, but we quickly realized
 In the beginning we made a program for the workers at ISAAC, but the program is supposed to be made for the upper management so they can see that the temperature within the building is not ideal for working, and that they need to get it fixed. 
 
 We bounced a lot of ideas with the stakeholder and ended up making a heatmap system that would accomodate everyone in the building.
+
+#### ***What will I do in the future?***
+Now that we've worked together with ISAAC and learned all these things, in the future I'll make sure that we communicate clearly with the stakeholder from the beginning. I'll also know how to better organize the group and the best way to work together, for example communication, dividing tasks etc. I think this experience was very helpful for my development.
 
 As for design I went into it in the [heatmap](#heatmap) and [slider](#sliders--date-time) section.
 
