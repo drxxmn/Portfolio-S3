@@ -28,9 +28,11 @@ I've found [Expo](https://expo.dev) while searching on the internet for mobile a
 
 Using the metro bundler of [Expo](https://expo.dev) you have a console that you can access and see all the console errors in. You can also select where  you want to open your application on.
 
- <img src="https://user-images.githubusercontent.com/69758492/173639444-7184303e-a7d6-4db5-9d18-459027fd074e.png" width="" height="500" />
- <img src="https://user-images.githubusercontent.com/69758492/173639455-b64073a0-7233-4ed4-9676-33f2ea804721.png" width="" height="500" />
- <img src="https://user-images.githubusercontent.com/69758492/173640596-7849fe67-d9b4-4068-84bc-380650a619d3.png" width="" height="500" />
+|  |   | |
+| :------------ |:---------------:| -----:|
+| <img src="https://user-images.githubusercontent.com/69758492/173639444-7184303e-a7d6-4db5-9d18-459027fd074e.png" width="" height="500" />   |  <img src="https://user-images.githubusercontent.com/69758492/173639455-b64073a0-7233-4ed4-9676-33f2ea804721.png" width="" height="500" /> |  <img src="https://user-images.githubusercontent.com/69758492/173640596-7849fe67-d9b4-4068-84bc-380650a619d3.png" width="" height="500" /> |
+
+
 
 
  For the UI I've made a simple design based on WhatsApp first, so I can make sure that everything I want in the application works fine. If I have time in the future I'm planning to modify it and customize the UI.
