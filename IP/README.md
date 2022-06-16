@@ -131,6 +131,9 @@ The goal of this learning outcome is to use a variety of tools to monitor the qu
 #### ***Code Reviews***
 As a group we've done a code review together, everyone had taken the code they made during the group project and we showed eachother exactly what we had made and what all the code is intended for. We also tended to do a lot of over the shoulder type code reviews, whenever we made something new we would show and ask the other groupmates for their opinions.
 
+In the group code review we came together and first reviewed all the front-end code in our project. We took the HTML- and Javascript files and told eachother about what each section is supposed to do, and we shared our opinions on how the code is created. We did the same thing for the back-end and additionally discussed the different back-end layers. We didn't end up changing much to our code, but it was very educational and we learned a lot from eachother. 
+
+We didn't do too many code reviews in our group. A good way to increase the amount of times we do it is to put it inside a "Definition of Done". This way we won't forget to do a code review, and we can learn a lot more from eachother. If there are any problems in the code we can also immediately fix it before we work on the next.
 #### ***SonarCloud***
 In order to verify the quality of the written code, I used Sonarcloud. 
 I integrated this server with the CI/CD pipeline, and it is triggered with every single push to my git. Sonarcloud scans the code for vunerabilities, bugs and small issues and gives possible solutions.
@@ -141,10 +144,170 @@ I integrated this server with the CI/CD pipeline, and it is triggered with every
 For the security of my application I decided to add authentication to the front-end application. By requiring the user to authenticate themselves, I can properly setup private accounts and ID's so the users can message each other in my application, I used the built in authentication from [AWS Amplify](https://aws.amazon.com/amplify/). The front-end application sends the user to a login page when they have to login for the first time, there they can login or register. After the user has authenticated once, they are sent to the main screen and they don't have to ever login again. The application remembers the user and allows them to forget about the login process.
 
 #### ***Testing***
+### ***Types of testing***
+There are different types of testing that can be organized in two types: functional testing and non-functional testing.
+
+To name a few (but definitely not all):
+| Functional	| Non Functional 	|
+|---	|---	| 
+| Unit Testing 	| Performance Testing 	| 
+| Integration Testing 	| Load Testing 	| 
+| Regression Testing 	| Security Testing 	| 
+| Acceptance Testing 	| Usability Testing 	| 
+| End to end testing (e2e) 	| Compatibility Testing 	| 
+
+Which types of testing you need depend a lot on the type of project, and on the wishes and necessities of your customer.
+
+### ***Testing with GraphQL***
+As I used GraphQL and AWS Amplify for my back-end, I looked into ways that I can test GraphQL and why it would be useful.
+
+My application is very reliant on the GraphQL subscriptions because all the data that I get and send are through GraphQL, the front-end mainly displays the GraphQL content.
+
+### ***Mutations and queries***
+In GraphQL, there are only two types of operations you can perform: queries and mutations.
+
+While we use queries to fetch data, we use mutations to modify server-side data.
+
+If queries are the GraphQL equivalent to GET calls in REST, then mutations represent the state-changing methods in REST (like DELETE, PUT, PATCH, etc).
+
+```jsx
+describe('Queries', () => {
+			let tester
+			beforeAll(() => {
+			    tester = new EasyGraphQLTester(schemaCode)
+			})
+			
+			test('Should get friends with a nested query', () => {
+	        const query = `
+	            query GET_FRIENDS($userId: ID!){
+	                user(id: $userId) {
+	                    id
+	                    friends {
+	                        id
+	                        firstname
+	                        lastname
+	                    }
+	                }
+	            }
+	        `
+	        tester.test(true, query, { userId: '0' })
+	    })
+})
+```
+
+Here is an example test for a GraphQL query. Using such a test I can for example check if a user has a profile picture, how many chatrooms they're in and their names. 
+This kind of test would also be useful for me to check if the data exists or is sending properly. If it's all empty or returns an error I would know there's something wrong on with my data in the back-end.
+
+```yml
+query chatRooms {
+  listChatRooms{
+    items{
+      id
+      chatRoomUsers{
+        items{
+          user{
+            imageUri
+          }
+        }
+      }
+    }
+  }
+}
+```
+Here is a query that I would be able to use to pull out all the user data in my back-end, I can modify it to check if the imageUri is empty or not for a test. I can also use it to check all other data about the user.
+
+### Resolvers
+A resolver is a function that's responsible for populating the data for a single field in your schema. It can populate that data in any way you define, such as by fetching data from a back-end database or a third-party API.
+
+Here's an example resolver that will get the friends of a user:
+```jsx
+it('Should get friends of user from their id', () => {
+      const userId = 0
+      const friends = getFriends(db, userId)
+      expect(friends.length).toBe(1)
+      expect(friends[0]).toHaveProperty('id')
+      expect(friends[0]).toHaveProperty('firstname')
+      expect(friends[0].firstname).toBe('Eduardo')
+})
+```
+Using a resolver I can test if I got the correct data from my database. I can also create a test chatroom that exists in the system and always test if I'm getting the correct data back. This way I can test if there is any issues happening with the communication between the back-end and the front-end.
+
+### ***Unit testing and integration testing***
+*What's the unit testing and integration testing, and what's the difference between them?* <br>
+**Unit testing** means testing individual modules of an application in isolation (without any interaction with dependencies) to confirm that the code is doing things right.
+
+**Integration testing** means checking if different modules are working fine when combined together as a group.
+
+To explain it in a very simple and basic manner (in the scope of a phone):
+
+***Unit testing:*** The phone is separated into small components. It checks the battery life/ capacity, and checks the sim card slot for its activation.
+
+***Unit testing:*** The battery and sim card are integrated together. They're assembled to start up the phone.
+
+These types of tests can be used in any appication. Examples of ways it can be used in my own program would be:
+
+***Unit testing***:
+- Checking the field length of the message.
+- Testing if the inputted values are valid.
+- If there's no message being typed the "camera" button shows.
+- If a message is being typed the "enter" button shows.
+
+***Integration testing***:
+- The user gets brought to the chatlist screen when they're logged in.
+- The user gets prompted with a login screen if they've never logged in before.
+- If the user sends an invalid message, an error screen will pop up.
+
+### ***Regression testing***
+Regression testing is a software testing practice that ensures an application still functions as expected after any code changes, updates, or improvements.
+
+Regression testing is responsible for the overall stability and functionality of the existing features. Whenever a new modification is added to the code, regression testing is applied to guarantee that after each update, the system stays sustainable under continuous improvements. 
+
+Regression testing is very important and should be used in any program. This ensures that you won't publish something full with new bugs or publish a major issue that could leak to problems. I have applied this to my CI/CD so it checks if all my tests are working when I push something new to my git.
+
+### ***End-to-end testing***
+End to end (E2E) testing is a software testing method that tests an application’s flow from beginning to end. The goal of this testing is to simulate a real-user scenario and validate the system under the testing process, check its data integrity, and overall integration.
+
+End to end testing will help you simulate the use of your program so you don't have to manually test the flow of the application every time you change something.
+
+The way end to end testing would be useful in my own application would be:
+- Testing the login and redirects
+- Testing creating chats between users
+- Testing sending messages between 2 mock users.
+
+This way I can quickly identify where the problems are within my system. I can also check if the data is being properly received and sent using my GraphQL subscriptions and mutations.
+
+### ***Performance testing***
+Performance Testing is a software testing process used for testing the speed, response time, stability, reliability, scalability and resource usage of a software application under particular workload. The main purpose of performance testing is to identify and eliminate the performance bottlenecks in the software application. 
+
+The focus of Performance Testing is checking a software program’s
+
+- Speed – Determines whether the application responds quickly
+- Scalability – Determines maximum user load the software application can handle.
+- Stability – Determines if the application is stable under varying loads
+
+Performance testing is useful to provide stakeholders with information about their application regarding speed, stability, and scalability. They also tell you what needs to be improved before the product gets published.
+
+One of such performance tests is called **load testing**.<br>
+Load testing checks the application’s ability to perform under anticipated user loads. The objective is to identify performance bottlenecks before the software application goes live.
+
+Although it's useful for applications that are bigger in size and needs to be scaled up. For my own project it is not too important, as I only wanted to use it for a small group of friends or a small community.
+
+Most of the tests in **performance testing* are like this, because I'll be using it with a small group, the amount of stress on the servers/ system will not be high at all. So it's not suitable to spend a lot of time in creating this type of test.
+
+### ***Security testing***
+Security Testing is a type of Software Testing that uncovers vulnerabilities of the system and determines that the data and resources of the system are protected from possible intruders. It ensures that the software system and application are free from any threats or risks that can cause a loss.
+
+Although security testing is very important in many cases, in my own application it is not as important. Although if I wanted to add end-to-end encryption to my app in the future it would be good to test if that functions correctly. Right now the AWS Login system provided by amazon does it's job very well and I don't have to worry about that too much.
+
+### ***Compatibility testing***
+Compatibility Testing is a type of Software testing to check whether your software is capable of running on different hardware, operating systems, applications, network environments or Mobile devices.
+
+It's very important to test your program on all devices you would want to use it on. As I didn't have a good way to test my program on IOS devices, I mainly focused on android and web. Because I use Expo to publish my application I can run it everywhere where Expo is supported, although there can be problems on platforms I can't test on.
 
 
 ### 4. CI/CD
 The goal of this learning outcome is to design and implement a CI/CD pipeline that is speficically made for this project capable of performing both integration and deployment. 
+
 
 #### ***Development pipeline***
 The development pipeline triggers whenever a push is made to the main branch in github. The pipeline first builds and tests all my code, this is done by checking out the branch and setting up a build environment. An Ubuntu Linux system is used for this due to the differences in efficiency and speen between Ubunto and Windows. Linux works much better for this.

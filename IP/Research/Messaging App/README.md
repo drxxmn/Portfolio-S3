@@ -1,4 +1,4 @@
-# **The makings of a messenger app**
+# **What is required to make a functional messaging app?**
 In this research paper I'll be looking into making a messaging application from scratch, how you can do it and the reasons as to why.
 
 ---

@@ -1,4 +1,4 @@
-# **Messaging and Security of a Social Media Platform**
+# **What are the security risks of online social platforms?**
 
 ## **Table of contents**
 * [Intro](#intro)
@@ -16,7 +16,9 @@
 ### *Intro*
 In the era of the internet, consumers seem to be increasingly more willing to resign certain aspects of their privacy for more convenience in using their technology, and have more or less accepted that being monitored by multi-million dollar corporations and even governments is just a fact of modern life.
 
-This subject is unimaginably wide and diverse and is hard to cover, thus in this research I'll be focusing on a specific social media platform/ messaging app called [Discord](https://Discord.gg).
+This subject is unimaginably wide and diverse and is hard to cover, thus in this research I'll be focusing on a specific social media platform/ messaging app called [Discord](https://Discord.gg). The reason I chose Discord is because I've personally been using this program for many years, and because I've heard some dubious things about their security and privacy policies I've decided to look into it personally and broaden my knowledge about what I'm using.
+
+*The scope of this research will be about how Discord profits, the background of Discord and how our privacy and data is being handled.*
 
 ### *What is Discord?*
 Discord is a free to use communication app, and in just six years Discord went from being a new startup to being forth over seven billion dollars. That makes Discord worth more than Skype, Pinterest, Tumblr and so many more. 

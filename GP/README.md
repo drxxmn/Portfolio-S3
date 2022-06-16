@@ -112,6 +112,8 @@ function setTimeLimit() {
 }
 ```
 
+I've learned a lot from creating the heatmap and sliders, they were quite tricky to get the hang of, but now if I need to set limits on sliders, or need to make a heatmap for some program, I would be able to apply the knowledge I've learnt in this semester.
+
 ### 3. Agile method
 In our group project we work using the Agile method and we chose the Scrum agile methodology. 
 
